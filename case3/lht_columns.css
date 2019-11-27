@@ -17,3 +17,22 @@
 
 /* Column Styles */
 
+article{
+   -moz-column-width: 260px;
+   -webkit-column-width: 260px;
+   column-width: 260px;
+   -moz-column-gap: 20px;
+   -webkit-column-gap: 20px;
+   column-gap: 20px;
+   -moz-column-rule: 1px solid rgb(154,64,31);
+   -webkit-column-rule: 1px solid rgb(154,64,31);
+   column-rule: 1px solid rgb(154,64,31);
+   widows: 2;
+   orphans: 2;
+}
+article h1{
+   -moz-column-span: all;
+   -webkit-column-span: all;
+   column-span: all;
+   text-align: center;
+}
